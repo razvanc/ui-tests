@@ -1,3 +1,5 @@
-body {
-    color: #333;
-}
+// Variables
+@import "partials/site-settings";
+
+// Difenent components
+@import "partials/layout";
