@@ -1,0 +1,15 @@
+{
+    "name": "UIDev",
+    "version" : "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "devDependencies": {
+        "grunt" : "~0.4.4",
+        "grunt-cli" : "latest",
+        "grunt-contrib-sass": "latest",
+        "grunt-contrib-watch": "latest",
+        "grunt-contrib-cssmin": "latest"
+    }
+}
