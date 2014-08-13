@@ -1,3 +1,163 @@
+/* ==========================================================================
+   0. Normalize.css v2.1.3 | MIT License | git.io/normalize | (minified)
+   ========================================================================== */
+article, aside, details,
+figcaption, figure,
+footer, header, hgroup,
+main, nav, section,
+summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden], template {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+a {
+  background: transparent; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: bold; }
+
+dfn {
+  font-style: italic; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap; }
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 0; }
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+legend {
+  border: 0;
+  padding: 0; }
+
+button, input, select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, select {
+  text-transform: none; }
+
+button, html input[type="button"],
+input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
 body {
   width: 100%;
   height: 100%;
@@ -5,8 +165,58 @@ body {
   line-height: 1.4;
   background: url("../images/main-bg.jpg") repeat top left; }
 
-.container {
+.wrapper {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: url("../images/rays.png") top center no-repeat; }
+
+.container {
+  position: relative;
+  width: 900px;
+  margin: 0px auto; }
+
+.logo {
+  position: absolute;
+  display: block;
+  width: 135px;
+  height: 90px;
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+  background-image: url("../images/sign_up_sprite.png");
+  background-position: -130px -235px; }
+
+.top-left-line {
+  position: absolute;
+  display: block;
+  width: 175px;
+  height: 80px;
+  background-image: url("../images/sign_up_sprite.png");
+  background-position: 0px 0px;
+  margin: 90px 0 0 123px; }
+
+.right-ballon {
+  position: absolute;
+  display: block;
+  width: 234px;
+  height: 230px;
+  top: 0;
+  right: 0;
+  background-image: url("../images/sign_up_sprite.png");
+  background-position: 234px 0px;
+  margin-right: 44px; }
+
+.register {
+  position: relative;
+  width: 90%;
+  max-width: 365px;
+  margin: 0px 0 0 250px; }
+  .register .form-title {
+    position: absolute;
+    display: block;
+    width: 230px;
+    height: 90px;
+    margin: 90px auto 10px 58px;
+    background-image: url("../images/sign_up_sprite.png");
+    background-position: -315px -242px; }
