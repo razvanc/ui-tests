@@ -15,7 +15,7 @@
 .signup-promo {
     width: 230px;
     height: 90px;
-    margin: 0 auto 20px;
+    margin: 0 auto 30px;
     background: url('../images/sign_up_sprite.png') -315px -242px;
 }
 
@@ -37,3 +37,13 @@
     background-position: -183px 1px;
 }
 
+.email-label {
+    background-position: -62px -176px;
+}
+
+.user-label {
+    background-position: -62px -152px;
+}
+.password-label {
+    background-position: -94px -180px;
+}
