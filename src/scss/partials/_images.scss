@@ -1,0 +1,39 @@
+.reg-image {
+    background: url('../images/sign_up_sprite.png') no-repeat;
+}
+
+.ballon {
+    position: absolute;
+    display: block;
+    right: 0;
+    margin-right: 20px;
+    width: 275px;
+    height: 230px;
+    background-position: -545px 0;
+}
+
+.signup-promo {
+    width: 230px;
+    height: 90px;
+    margin: 0 auto 20px;
+    background: url('../images/sign_up_sprite.png') -315px -242px;
+}
+
+.dash-1 {
+    position: absolute;
+    top: 100px;
+    left: 208px;
+    width: 175px;
+    height: 80px;
+    background-position: 0px 0px;
+}
+
+.dash-2 {
+    position: absolute;
+    top: 165px;
+    left: 642px;
+    width: 102px;
+    height: 107px;
+    background-position: -183px 1px;
+}
+

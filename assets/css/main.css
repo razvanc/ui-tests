@@ -158,60 +158,94 @@ ul {
   margin: 0;
   padding: 0; }
 
+div {
+  display: block; }
+
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: transparent; }
+
 body {
   width: 100%;
   height: 100%;
-  font-family: sans-serif;
+  color: #696b61;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.4;
   background: url("../images/main-bg.jpg") repeat top left;
   background: url("../images/rays.png") top center no-repeat, url("../images/main-bg.jpg") repeat top left; }
 
 .container {
   position: relative;
-  width: 900px;
-  margin: 0px auto; }
+  width: 1024px;
+  padding: 0 10px;
+  margin: 0 auto;
+  z-index: 100; }
+  .container:before, .container:after {
+    content: " ";
+    display: table; }
+  .container:after {
+    clear: both; }
 
-.logo {
+.main-header {
+  height: 100px; }
+  .main-header .brand a {
+    text-indent: -9999px;
+    margin: 0;
+    padding: 0; }
+  .main-header .logo {
+    position: absolute;
+    width: 135px;
+    height: 75px;
+    left: 85px;
+    top: 20px;
+    background: url("../images/sign_up_sprite.png") no-repeat -130px -235px; }
+
+.reg-image {
+  background: url("../images/sign_up_sprite.png") no-repeat; }
+
+.ballon {
   position: absolute;
   display: block;
-  width: 135px;
+  right: 0;
+  margin-right: 20px;
+  width: 275px;
+  height: 230px;
+  background-position: -545px 0; }
+
+.signup-promo {
+  width: 230px;
   height: 90px;
-  top: 0;
-  left: 0;
-  margin-top: 10px;
-  background-image: url("../images/sign_up_sprite.png");
-  background-position: -130px -235px; }
+  margin: 0 auto 20px;
+  background: url("../images/sign_up_sprite.png") -315px -242px; }
 
-.top-left-line {
+.dash-1 {
   position: absolute;
-  display: block;
+  top: 100px;
+  left: 208px;
   width: 175px;
   height: 80px;
-  background-image: url("../images/sign_up_sprite.png");
-  background-position: 0px 0px;
-  margin: 90px 0 0 123px; }
+  background-position: 0px 0px; }
 
-.right-ballon {
+.dash-2 {
   position: absolute;
-  display: block;
-  width: 234px;
-  height: 230px;
-  top: 0;
-  right: 0;
-  background-image: url("../images/sign_up_sprite.png");
-  background-position: 234px 0px;
-  margin-right: 44px; }
+  top: 165px;
+  left: 642px;
+  width: 102px;
+  height: 107px;
+  background-position: -183px 1px; }
 
-.register {
-  position: relative;
-  width: 90%;
-  max-width: 365px;
-  margin: 0px 0 0 250px; }
-  .register .form-title {
-    position: absolute;
-    display: block;
-    width: 230px;
-    height: 90px;
-    margin: 90px auto 10px 58px;
-    background-image: url("../images/sign_up_sprite.png");
-    background-position: -315px -242px; }
+.signup {
+  width: 365px;
+  margin: 0 auto; }
+
+.user-details {
+  margin-bottom: 40px; }
+
+.f-field {
+  margin-bottom: 14px; }
