@@ -47,3 +47,29 @@
 .password-label {
     background-position: -94px -180px;
 }
+.re-password-label {
+    background-position: -94px -180px;
+    left: 193px !important;
+}
+.lastname-label {
+    background-position: -62px -152px;
+    left: 193px !important;
+}
+.user-address {
+    background-position: 0px -152px;
+}
+
+.carret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    position: absolute;
+    right: 7px;
+    top: 16px;
+    border-top-color: #6f7770;
+}

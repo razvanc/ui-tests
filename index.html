@@ -45,13 +45,60 @@
                 <input class="f-input" type="text" id="signup-user" name="regUsername" placeholder="Username" />
             </div>
             <div class="f-field">
-                <label class="f-label password-label" for="signup-password"></label>
-                <input class="f-input" type="password" id="signup-password" name="regPassword" placeholder="Password" />
+                <div class="medium pull-left">
+                    <label class="f-label password-label" for="signup-password"></label>
+                    <input class="f-input" type="password" id="signup-password" name="regPassword" placeholder="Password" />
+                </div>
+                <div class="medium pull-left">
+                    <label class="f-label re-password-label" for="signup-re-password"></label>
+                    <input class="f-input" type="password" id="signup-re-password" name="regPassword" placeholder="Password" />
+                </div>
+
             </div>
         </div>
         <!-- user personal information -->
         <div class="user-bio">
-
+            <div class="f-field">
+                <div class="medium pull-left">
+                    <label class="f-label user-label" for="firstname"></label>
+                    <input class="f-input" type="text" id="firstname" name="userFirstname" placeholder="First name" />
+                </div>
+                <div class="medium pull-left">
+                    <label class="f-label lastname-label" for="lastname"></label>
+                    <input class="f-input" type="text" id="lastname" name="userLastname" placeholder="Last name" />
+                </div>
+            </div>
+        </div>
+        <!-- user contact details -->
+        <div class="user-contact">
+            <div class="f-field">
+                <label class="f-label user-address" for="user-address"></label>
+                <input class="f-input" type="text" id="user-address" name="userAddress" placeholder="Address" />
+            </div>
+            <div class="f-field">
+                <div class="postcode pull-left">
+                    <input type="text" class="f-input" id="user-postcode" name="userPostcode" placeholder="Postcode" />
+                </div>
+                <div class="city pull-left">
+                    <input type="text" class="f-input" id="user-city" name="userCity" placeholder="City" />
+                </div>
+            </div>
+            <div class="f-field">
+                <div class="country pull-left">
+                    <div class="dropdown">
+                        <button type="button" class="f-input">
+                            <span class="carret"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="currency pull-left">
+                    <div class="dropdown">
+                        <button type="button" class="f-input">
+                            <span class="carret"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </form>
 </div>
